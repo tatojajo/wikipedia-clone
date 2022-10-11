@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 75vh;
+    text-align: center;
+ 
+ }
+ 
+ .all{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 580px;
+     position: relative;
+ 
+ }
+ 
+ h2{
+ font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+ display: inline-block;
+ overflow: hidden;
+     }
+
+     
+ 
+ 
+     strong{
+     color: #36c;
+     cursor: pointer;
+     line-height: 1.5;
+     display: block;
+     text-decoration: underline;
+     box-sizing: border-box;
+ }
+ a{
+    font-size:xx-large;
+ }
+  
+ .img{
+     width: 200px;
+     height: 200px;
+ }
