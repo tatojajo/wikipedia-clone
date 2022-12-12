@@ -1,43 +1,182 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 75vh;
-    text-align: center;
- 
- }
- 
- .all{
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     width: 580px;
-     position: relative;
- 
- }
- 
- h2{
- font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
- display: inline-block;
- overflow: hidden;
-     }
 
-     
- 
- 
-     strong{
-     color: #36c;
-     cursor: pointer;
-     line-height: 1.5;
-     display: block;
-     text-decoration: underline;
-     box-sizing: border-box;
- }
- a{
-    font-size:xx-large;
- }
-  
- .img{
-     width: 200px;
-     height: 200px;
- }
+body{
+    position: relative;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+img{
+    position: absolute;
+    top: 170px;
+    left: 35px;
+}
+.logo{
+    position: relative;
+    margin: 4rem auto 0.5rem;
+    width: 270px;
+}
+.middle_text{
+    position: relative;
+    height: 30;
+    font-size:initial;
+}
+.todos_los_idiomas{
+    position: relative;
+    height: 20.5rem;
+    width: 54.6rem;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align:middle;
+    font-size: 1rem;
+    line-height: 0.5;
+}
+.idioma1{
+    position: absolute;
+    top: 0%;
+    right: 60%;
+}
+.idioma2{
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.idioma3{
+    position: absolute;
+    top: 20%;
+    right: 70%;
+}
+.idioma4{
+    position: absolute;
+    top: 20%;
+    left:70%;
+}
+.idioma5{
+    position: absolute;
+    top: 40%;
+    right: 72%;
+}
+.idioma6{
+    position: absolute;
+    top: 40%;
+    left: 72%;
+}
+.idioma7{
+    position: absolute;
+    top: 60%;
+    right: 70%;
+}
+.idioma8{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+
+}
+.idioma9{
+    position: absolute;
+    top: 80%;
+    right: 60%;
+}
+.idioma10{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+a{
+    color: #36c;
+    touch-action: manipulation;
+
+}
+h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+h1::first-letter{
+    font-size: 2.3rem;
+}
+.textlogo::after{
+    content:'a';
+    font-size: 2.3rem;
+}
+.busqueda {
+    float: none;
+    max-width: 95%;
+    width: 540px;
+    margin: .4rem auto 1.95rem;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    width: 73%;
+    vertical-align: top;
+}
+fieldset {
+    word-spacing: -4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 0;
+    }
+.pure-form{
+    margin: 0;
+    padding: .56rem 0 1.2rem;
+    border: 0;
+}
+input {
+    line-height: normal;
+    min-height: 1;
+    border-color: #36c;
+}
+
+button {
+    min-height: 1rem;
+    margin: 0;
+    border-radius: 0 2px 2px 0;
+    padding: .8rem 1.6rem;
+    font-size: 1.6rem;
+    z-index: 2;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.boton {
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    text-align: center;
+    cursor:pointer;
+    user-select: none;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 1.6rem;
+    border: 1px solid #a2a9b1;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: top;
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+
+button, input, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.escritorio {
+    display: block;
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
